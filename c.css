@@ -1,0 +1,14 @@
+.container1{
+  position:relative;
+  margin:200px;
+  border:solid 3px orange;
+  padding:30px;
+  width: 1000px;
+}
+
+.container2{
+  position:relative;
+  margin: 100px;
+  border: solid 5px orange;
+  padding: 30px;
+}
