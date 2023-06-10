@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+body{
+  overflow-x: hidden;
+
+  color: #595447;
+}
+
+h1,
+h2,
+h3,
+h4,
+.display-1 {
+  color: #a39c83;
+  font-weight: 600;
+}
+p{
+  font-size:1.5rem;
+  color:white;
+  line-height:2em;
+}
+
+.box1{
+      width:700px;
+      height:100px;
+      background:white;
+    }
+
+
+/* 导航栏样式 */
+.navbar{
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: .1rem;
+  background: rgba(0, 0, 0, 0.6)!important;
+}
+
+.navbar-brand img{
+  height: 6rem;
+}
+
+.navbar-nav li{
+  padding-right: 1rem;
+}
+
+/* hover待解决 */
+.nav-link:hover {
+  color:#a39c83 !important;
+}
+
+.dropdown-item{
+  text-transform:none;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+/* 登录页面 */
+.hero{
+  background-image: url(img/landing.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;
+}
+
+
+.hero::after{
+  content:"";
+  position: absolute;
+  width: 100%;
+  height:100%;
+  top:0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: -1;
+}
+
+.display-1{
+  font-size: 3rem;
+}
+
+.display-2,
+.display-3 {
+  font-size: 1.8rem;
+}
+
+.col-img{
+  background-image: url(img/Christopher-Nolan-Films.jpg);
+  min-height: 500px;
+  background-position: center;
+  background-size: cover;
+}
+
+section{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.line-2{
+  white-space: pre;
+}
+
+.card-effect{
+  box-shadow: 0 8px 22px rgb(0, 0, 0, 0.2);
+  background-color: #c9d1d4;
+  padding: 10px;
+  transition: all 0.35s ease;
+}
+
+.card-effect:hover{
+  box-shadow: none;
+  background-color: #bab9b6;
+  transition: translateY(5px);
+}
+
+section .row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-body h5{
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+.card-body p{
+  font-size: 1.2rem;
+}
+
+section .btn{
+  background-color: #8a7d6b;
+  font-size: 1.5rem;
+}
+section .btn:hover{
+  background-color: #595447;
+}
